@@ -560,3 +560,49 @@ body.dark-mode .welcome-section p {
         gap: 5px;
     }
 }
+
+
+.seo-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 24px;
+  line-height: 1.7;
+}
+
+.seo-content h2 {
+  margin-bottom: 16px;
+}
+
+.seo-content h3 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.seo-content p,
+.seo-content li {
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .seo-content {
+    padding: 16px;
+    margin: 24px auto;
+  }
+}
+
+.tool-info {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 20px;
+  border-radius: 12px;
+  line-height: 1.7;
+}
+
+.tool-info h3 {
+  margin-bottom: 12px;
+}
+
+.tool-info h4 {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
