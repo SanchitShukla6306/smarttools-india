@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTools India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+<section class="welcome-section">
+    <h2>All Your Smart Tools in One Place</h2>
+    <p>Free online tools to calculate, convert, compress and simplify your daily tasks.</p>
+    <p class="welcome-note">✨ Simple • Fast • Free</p>
+</section>
+        <h1>SmartTools India</h1>
+        <p>Your everyday tools, all in one place</p>
+        <button id="theme-toggle" class="theme-button">
+    🌙 Dark Mode
+</button>
+    </header>
+
+    <main>
+        <input
+            type="search"
+            id="search"
+            placeholder="Search tools..."
+            aria-label="Search tools"
+        >
+
+        <section class="tools">
+            <button class="tool-card" data-tool="calculator">
+                🧮 <span>Calculator</span>
+            </button>
+
+            <button class="tool-card" data-tool="age">
+                🎂 <span>Age Calculator</span>
+            </button>
+
+            <button class="tool-card" data-tool="percentage">
+                📊 <span>Percentage Calculator</span>
+            </button>
+    
+
+            <button class="tool-card" data-tool="emi">
+                💰 <span>EMI Calculator</span>
+            </button>
+
+            <button class="tool-card" data-tool="qr">
+                📱 <span>QR Code Generator</span>
+            </button>
+
+            <button class="tool-card" data-tool="compressor">
+                🖼️ <span>Image Compressor</span>
+            </button>
+
+            <button class="tool-card" data-tool="converter">
+                📏 <span> Unit Converter</span> 
+            </button>
+
+            <button class="tool-card" data-tool="currency">
+                💱 <span> Currency Converter </span>
+</button>
+
+        </section>
+
+        <section id="tool-area" class="tool-area" hidden>
+            <h2 id="tool-title"></h2>
+            <div id="tool-content"></div>
+            <p id="result" role="status" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 SmartTools India</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
